@@ -1,0 +1,7 @@
+.react-select-container{
+    margin-bottom: 20px;
+}   
+
+.react-select__option:hover{
+    background-color: rgb(253, 53, 53);
+}

@@ -1,0 +1,36 @@
+{
+    "profile" : {
+        "firstName" : "firstName",
+        "lastName" : "lastName",
+        "email" : "email",
+
+        "profilePic" : "profilePic",
+        "website" : "website",
+        "about" : "about",
+        "sex" : "sex",
+        "contributions":"contributions",
+        "expertise" : "expertise",
+        "fieldOfInterest" : "fieldOfInterest",
+        "experience" : "experience",
+        "education" : "education",
+        
+        "followers" : "followers",
+        "followings" : "followings",
+        
+        "activity" : "activity"
+    },
+    "post" : {
+        "firstName" : "firstName",
+        "lastName" : "lastName",
+
+        "profilePic" : "profilePic",
+        
+        "mainTechUsed" : "mainTechUsed",
+        "postImage" : "postImage",
+        "postDescription" : "postDescription",
+        "likedBy" : "likedBy",
+        "comments" : "comments",
+        "timeStamp" : "timeStamp" 
+    }
+    
+}

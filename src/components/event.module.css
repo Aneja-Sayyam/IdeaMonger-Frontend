@@ -1,0 +1,58 @@
+.container{
+    margin: 20px 0;
+    width: 600px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0);
+}
+.thumbnailContainer{
+    width: 300px;
+    height : 300px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+}
+.thumbnail{
+    width: 100%;
+    border-radius: 10%;
+    object-fit: contain;
+}
+.header{
+    width: 100%;
+    /* padding: 20px;
+    padding-bottom: 10px; */
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.5px black;
+    /* background-color: #fff; */
+}
+.profileImage{
+    height: 35px;
+    width: 35px;
+    object-fit: cover;
+    object-position: 0 0;
+    border-radius: 50%;
+}
+.username{
+    margin-left: 20px;
+}
+.eventDetails{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.detail{
+    font-size: medium;
+    padding: 2px 0;
+    cursor: pointer;
+}
+.line{
+    background-color: rgb(71, 71, 71);
+    width: 95%;
+    margin: 10px 0 ;
+    height: 1px;
+}
+.value:hover{
+    color: rgb(51, 136, 211);
+}

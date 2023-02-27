@@ -1,0 +1,35 @@
+.dropbtn {
+  cursor: pointer;
+  color: rgb(93, 93, 93);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdownContent {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 150px;
+  max-width: auto;
+  font-size: 16px;
+  overflow: visible;
+  box-shadow: 1px 1px 16px 2px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropOption {
+  color: black;
+  padding: 8px 5px;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+}
+
+.dropOption:hover {
+    background-color: #ddd;
+    /* color: white; */
+}

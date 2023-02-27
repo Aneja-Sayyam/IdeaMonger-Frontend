@@ -1,0 +1,130 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    /* height: 60px; */
+    align-items: center;
+}
+#profilePic{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    object-position: 0 0;
+    border-radius: 50%;
+    
+}
+.username{
+    margin-left: 30px;
+}
+.menu{
+    margin-left: auto;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.imageContainer{
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+}
+.image{
+    height: 550px;
+    width: 550px;
+    border-radius: 20px;
+}
+.panelBody{
+    margin-left: 30px;
+}
+.description{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    flex-wrap: wrap;
+    min-height: auto;
+    max-height: 8vh;
+    overflow:auto;
+    align-items: center;
+    /* margin-left: 35px; */
+    /* padding: 15px 0; */
+    line-height: 1.4em;
+}
+
+.options{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+    padding: 10px 0;
+    /* margin-left: 35px; */
+}
+.upVoteButton{
+    margin-right: 20px;
+    cursor: pointer;
+    transition: color ease-in-out 500ms;
+}
+.like{
+    color: rgb(192, 25, 53);
+}
+.totalLikes{
+    font-size: smaller;
+    color: rgb(51, 51, 51);
+    /* margin-left: 35px; */
+}
+.addComment{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    padding: 5px 0;
+    margin-top: 10px;
+}
+.newComment{
+    width: 100%;
+    height: inherit;
+    border: none;
+    padding: 10px 30px;
+    background-color: rgb(245, 245, 245);
+    font-size: 16px;
+}
+.newComment:focus{
+    outline: none;
+}
+.postComment{
+    height: inherit;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(224, 224, 224);
+    cursor: pointer;
+}
+.postCommentBtn{
+    color: rgb(130, 160, 200);
+    margin: 0 auto;
+}
+.enableComment{
+    color: rgb(0, 87, 200);
+}
+.techs{
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 80%; */
+    margin-top: 10px;
+    /* margin-left: 30px; */
+}
+.tech{
+    margin-bottom: 10px;
+    background-color: rgb(184, 209, 224);
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 50px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.cover{
+    object-fit: cover;
+    object-position: 0 0;
+}
+.contain{
+    object-fit: contain;
+}

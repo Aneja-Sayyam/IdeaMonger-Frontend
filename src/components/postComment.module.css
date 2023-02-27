@@ -1,0 +1,35 @@
+.commentContainer{
+    width: 100%;
+    height: auto;
+    display : flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    word-wrap: break-word;
+}
+.profileImage{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%; 
+    object-fit: cover;
+    object-position: 0 0;
+}
+.info{
+    display: flex;  
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 16px;
+}
+.username{
+    margin-left:10px ;
+    font-weight: 600;    
+}
+
+.commentText{
+    margin-left: 10px;
+    height: auto;
+    font-weight: 100;
+}

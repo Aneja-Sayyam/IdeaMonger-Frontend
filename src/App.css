@@ -1,0 +1,16 @@
+.App{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(238, 237, 237);
+  height:100vh;
+  width: 100%;
+  overflow: auto;
+  color: black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    /* margin: 0 auto; */
+    align-items: center;
+}
